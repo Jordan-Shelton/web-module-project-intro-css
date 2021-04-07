@@ -42,6 +42,8 @@ blockquote, q {
     border:1px solid grey;
 }
 
+/* general styles */
+
 html{
     font-size:62.5%;
 }
@@ -49,28 +51,32 @@ html{
 body{
     font-size:1.6rem;
     line-height:1.5;
-    font-family:'Roboto Mono', 'monospace'
+    font-family:'Roboto Mono', monospace
 }
 
 h1{
-
+    font-family:"Chelsea Market", cursive;
+    font-size:4rem;
 }
 
 section{
     padding:4% 0;
 }
 
+/* header section styles */
+
 nav{
-    padding:2%;
+    padding:2% 0;
 }
 
 nav a{
-    desplay:inline-block;
-    padding:1%;
+    display:inline-block;
+    padding:1% 0;
     border-radius:10px;
     text-align:center;
     color:#fff;
     text-decoration:none;
+    width:10%;
 }
 
 .orange{
@@ -88,6 +94,12 @@ nav a{
     margin-right:10%;
 }
 
+/* top section styles */
+
+.top{
+    position:relative;
+}
+
 .top div{
     display:inline-block;
     width:45%;
@@ -103,5 +115,66 @@ nav a{
 .right{
     padding:4%;
     line-height:2;
+    position:absolute;
+    bottom:20%;
+}
+
+/* secTwo section style */
+
+.history{
+    display:inline-block;
+    text-align:center;
+    background-color:#DDB9A3;
+    margin:0 5%;
+    color:#fff;
+}
+
+.secTwo p{
+    padding:1%;
+    font-size:1.5rem;
+}
+
+/* middle pictures with txt */
+
+.middle{
+    display:inline;
+}
+
+.camping{
+    text-align:center;
+    display:inline-block;
+    padding:2rem;
+
+}
+
+.camping img{
+    width:10%;
+    height:auto;
+}
+
+.camping p{
+    width:25%;
+    height:auto;
+    margin-left:37.5%;
+}
+
+.notice{
+    font-family: 'Roboto Mono', monospace;
+    font-weight:700;
+}
+
+/* background image */
+
+/* .bottom img{
     
+} */
+
+.bottom{
+    background-image:url("assets/footer_img.jpg");
+}
+
+footer{
+    background-color:#F9E7DC;
+    margin:0;
+    padding:-4
 }
