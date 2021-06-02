@@ -171,6 +171,10 @@ blockquote, q {
     
     .bottom{
         background-image:url("assets/footer_img.jpg");
+        height:50vh;
+        background-repeat:no-repeat;
+        background-size:cover;
+        background-position:top;
     }
     
     footer{
