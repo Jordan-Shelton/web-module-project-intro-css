@@ -1,0 +1,180 @@
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+
+ol, ul {
+	list-style: none;
+	}
+/* tables still need cellspacing="0" in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+	}
+/* remove possible quote marks (") from <q> & <blockquote> */
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+	}
+blockquote, q {
+	quotes: "" "";
+	}
+
+*{
+    box-sizing:border-box;
+    max-width:100%;
+    border:1px solid grey;
+}
+
+/* general styles */
+
+html{
+    font-size:62.5%;
+}
+
+body{
+    font-size:1.6rem;
+    line-height:1.5;
+    font-family:'Roboto Mono', monospace
+}
+
+h1{
+    font-family:"Chelsea Market", cursive;
+    font-size:4rem;
+}
+
+section{
+    padding:4% 0;
+}
+
+/* header section styles */
+
+nav{
+    padding:2% 0;
+}
+
+nav a{
+    display:inline-block;
+    padding:1% 0;
+    border-radius:10px;
+    text-align:center;
+    color:#fff;
+    text-decoration:none;
+    width:10%;
+}
+
+.orange{
+    background-color:#ff764e;
+    margin-left:10%;
+}
+
+.blue{
+    background-color:#5ed3eb;
+    margin:0 24%
+}
+
+.yellow{
+    background-color:#ffcd69;
+    margin-right:10%;
+}
+
+/* top section styles */
+
+.top{
+    position:relative;
+}
+
+.top div{
+    display:inline-block;
+    width:45%;
+    margin:0 2%;
+    text-align:center;
+}
+
+.left img{
+    border-radius:50%;
+    width:60%;
+}
+
+.right{
+    padding:4%;
+    line-height:2;
+    position:absolute;
+    bottom:20%;
+}
+
+/* secTwo section style */
+
+.history{
+    display:inline-block;
+    text-align:center;
+    background-color:#DDB9A3;
+    margin:0 5%;
+    color:#fff;
+}
+
+.secTwo p{
+    padding:1%;
+    font-size:1.5rem;
+}
+
+/* middle pictures with txt */
+
+.middle{
+    display:inline;
+}
+
+.camping{
+    text-align:center;
+    display:inline-block;
+    padding:2rem;
+
+}
+
+.camping img{
+    width:10%;
+    height:auto;
+}
+
+.camping p{
+    width:25%;
+    height:auto;
+    margin-left:37.5%;
+}
+
+.notice{
+    font-family: 'Roboto Mono', monospace;
+    font-weight:700;
+}
+
+/* background image */
+
+/* .bottom img{
+    
+} */
+
+.bottom{
+    background-image:url("assets/footer_img.jpg");
+}
+
+footer{
+    background-color:#F9E7DC;
+    margin:0;
+    padding:-4
+}
